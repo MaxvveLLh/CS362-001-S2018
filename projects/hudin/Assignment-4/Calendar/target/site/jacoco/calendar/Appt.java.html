@@ -171,7 +171,7 @@ public class Appt{
 <span class="nc" id="L171">			this.valid = false;</span>
 		else {
 <span class="fc" id="L173">			int NumDaysInMonth = CalendarUtil.NumDaysInMonth(startYear, startMonth - 1);</span>
-<span class="fc bfc" id="L174" title="All 4 branches covered.">			if (startDay &lt; 1 || startDay &gt; NumDaysInMonth)</span>
+<span class="pc bpc" id="L174" title="1 of 4 branches missed.">			if (startDay &lt; 1 || startDay &gt; NumDaysInMonth)</span>
 <span class="fc" id="L175">				this.valid = false;</span>
 			else
 <span class="fc" id="L177">				this.valid = true;</span>
