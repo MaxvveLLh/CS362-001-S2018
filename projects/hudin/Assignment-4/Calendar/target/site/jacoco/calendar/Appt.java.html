@@ -165,13 +165,13 @@ public class Appt{
 <span class="fc" id="L165">			this.valid = false;</span>
 <span class="pc bpc" id="L166" title="1 of 4 branches missed.">		else if (startHour &lt; 0 || startHour &gt; 23)</span>
 <span class="fc" id="L167">			this.valid = false;</span>
-<span class="pc bpc" id="L168" title="1 of 4 branches missed.">		else if (startMinute &lt; 0 || startMinute &gt; 59)</span>
+<span class="fc bfc" id="L168" title="All 4 branches covered.">		else if (startMinute &lt; 0 || startMinute &gt; 59)</span>
 <span class="fc" id="L169">			this.valid = false;</span>
-<span class="pc bpc" id="L170" title="1 of 2 branches missed.">		else if (startYear &lt;= 0)</span>
-<span class="nc" id="L171">			this.valid = false;</span>
+<span class="fc bfc" id="L170" title="All 2 branches covered.">		else if (startYear &lt;= 0)</span>
+<span class="fc" id="L171">			this.valid = false;</span>
 		else {
 <span class="fc" id="L173">			int NumDaysInMonth = CalendarUtil.NumDaysInMonth(startYear, startMonth - 1);</span>
-<span class="pc bpc" id="L174" title="1 of 4 branches missed.">			if (startDay &lt; 1 || startDay &gt; NumDaysInMonth)</span>
+<span class="fc bfc" id="L174" title="All 4 branches covered.">			if (startDay &lt; 1 || startDay &gt; NumDaysInMonth)</span>
 <span class="fc" id="L175">				this.valid = false;</span>
 			else
 <span class="fc" id="L177">				this.valid = true;</span>

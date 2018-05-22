@@ -28,25 +28,17 @@ public class ApptRandomTest {
 				@Test
 				public void setValidRandomTest(){
 						for (int i=0; i < 90000; i++) {
-								long randomseed =System.currentTimeMillis();
-			 					Random random = new Random(randomseed);
-								int startHour = ValuesGenerator.getRandomIntBetween(random, 100,-300);
-								int startMinute = ValuesGenerator.getRandomIntBetween(random, 100,-300);
-      					int startDay = ValuesGenerator.getRandomIntBetween(random, 300,-300);
-      					int startMonth = ValuesGenerator.getRandomIntBetween(random, 100,-20);
-      					int startYear = ValuesGenerator.getRandomIntBetween(random, 300,-300);
+								int startHour = ValGen.RandInt(25,-3);
+								int startMinute = ValGen.RandInt(70,-5);
+      					int startDay = ValGen.RandInt(40,-8);
+      					int startMonth = ValGen.RandInt(14,-2);
+      					int startYear = ValGen.RandInt(300,-10);
       					String title = "Birthday Party";
       					String description = "This is my birthday party.";
 								String emailAddress = "xyz@gmail.com";
 								for(int k=0; k<5; k++){
-										Appt appt = new Appt(startHour,
-																				 startMinute,
-																				 startDay,
-																				 startMonth,
-																				 startYear,
-																				 title,
-																				 description,
-																				 emailAddress);
+										Appt appt = new Appt(startHour,startMinute,startDay, startMonth, startYear,
+										title, description, emailAddress);
 										try{
 												appt.setValid();
 											}
