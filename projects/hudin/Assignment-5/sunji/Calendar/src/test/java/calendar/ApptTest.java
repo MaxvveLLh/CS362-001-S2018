@@ -70,7 +70,7 @@ public class ApptTest  {
     }
 
 
-
+/*
   @Test(timeout = 4000)
     public void test06()  throws Throwable
     {
@@ -88,7 +88,7 @@ public class ApptTest  {
 	     assertTrue(appt2.getValid());
 	     assertTrue(appt3.getValid());
      }
-
+*/
 
    @Test(timeout = 4000)
     public void test07()  throws Throwable
