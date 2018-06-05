@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="calendar.DataHandlerTest" time="0.242" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="calendar.DataHandlerTest" time="0.101" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre/lib/amd64"/>
@@ -57,11 +57,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="calendar.DataHandlerTest" name="test00" time="0.168"/>
-  <testcase classname="calendar.DataHandlerTest" name="test01" time="0.013"/>
-  <testcase classname="calendar.DataHandlerTest" name="test02" time="0.02"/>
-  <testcase classname="calendar.DataHandlerTest" name="test03" time="0.006"/>
-  <testcase classname="calendar.DataHandlerTest" name="test04" time="0.018"/>
-  <testcase classname="calendar.DataHandlerTest" name="test05" time="0.01"/>
-  <testcase classname="calendar.DataHandlerTest" name="test06" time="0.002"/>
+  <testcase classname="calendar.DataHandlerTest" name="test00" time="0.046"/>
+  <testcase classname="calendar.DataHandlerTest" name="test01" time="0.008"/>
+  <testcase classname="calendar.DataHandlerTest" name="test02" time="0.016"/>
+  <testcase classname="calendar.DataHandlerTest" name="test03" time="0.004"/>
+  <testcase classname="calendar.DataHandlerTest" name="test04" time="0.015"/>
+  <testcase classname="calendar.DataHandlerTest" name="test05" time="0.009"/>
+  <testcase classname="calendar.DataHandlerTest" name="test06" time="0.001"/>
 </testsuite>
